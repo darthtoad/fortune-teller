@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fortune Teller</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1>Fortune Teller</h1>
+      <form id="theForm">
+        <div class="form-group">
+          <p>Check each activity you've done in the last month:</p>
+          <input type="checkbox" name="activities" value="drunk">
+          Throwing up drunk<br>
+          <input type="checkbox" name="activities" value="walk">
+          Walk down the street<br>
+          <input type="checkbox" name="activities" value="poop">
+          Poop in your pants<br>
+          <input type="checkbox" name="activities" value="sleep">
+          Slept more than 10 hours in a night<br>
+          <input type="checkbox" name="activities" value="punch">
+          Punched someone in the face<br>
+        </div>
+        <div class="form-group">
+          <p>Check each food you like:</p>
+          <input type="checkbox" name="food" value="steak">
+          Steak<br>
+          <input type="checkbox" name="food" value="tuna">
+          Tuna<br>
+          <input type="checkbox" name="food" value="lamb">
+          Lamb<br>
+          <input type="checkbox" name="food" value="potatoes">
+          Potatoes<br>
+          <input type="checkbox" name="food" value="apples">
+          Apples<br>
+        </div>
+        <div class="form-group">
+          <p>Check each box that applies to you:</p>
+          <input type="checkbox" name="personality" value="energetic">
+          I am energetic
+          <br>
+          <input type="checkbox" name="personality" value="homebody">
+          I perfer staying at home to going out
+          <br>
+          <input type="checkbox" name="personality" value="party">
+          I like to party and drink
+          <br>
+          <input type="checkbox" name="personality" value="crowds">
+          I don't like crowds
+          <br>
+          <input type="checkbox" name="personality" value="netflix">
+          My favorite activity is Netflix and chill
+          <br>
+        </div>
+        <button type="submit">Submit Survey</button>
+      </form>
+      <br>
+      <div id="output">
+      </div>
+    </div>
+  </body>
+</html>
